@@ -2,40 +2,41 @@
 </p>
 
 <div align="center">
- 
+
 # AP-AMS
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable-next-line MD036 -->
-_✨ 一个简单的适用于拓竹的自动换色系统 ✨_
+_✨ A simple automatic color change system for Tuozhu ✨_
 <!-- prettier-ignore-end -->
 </div>
 
-## 特点
-- 一个换色单元就可以自己工作！无需上位机！
-- 成本低，单个换色单元仅花费**50元**
-- 接入homeassistant，数据可视化，方便监视换色以及纠错(待完善)
-- 使用esp8266作为MCU,Arduino开发
-- 换色单元主体除电机和基础齿轮均为3d打印
-- 使用舵机控制齿轮松紧，仅换料时压紧齿轮，正常打印依靠拓竹的近端挤出机
-- 正常打印低噪音
+## Features
+- A color change unit can work by itself! No host computer required!
+- Low cost, a single color-changing unit costs only **50 yuan**
+- Connect to homeassistant, data visualization, convenient monitoring of color changes and error correction (to be improved)
+- Use esp8266 as MCU, Arduino development
+- The main body of the color-changing unit is 3D printed except the motor and basic gears
+- Use the servo to control the tightness of the gears, only tighten the gears when changing materials, and rely on the proximal extruder of Tuozhu for normal printing
+- Low noise during normal printing
 
-## 结构
+## Structure
 ![image](https://github.com/applenana/AP-AMS/assets/83851967/ca55f6cd-61bb-41c4-b0b0-55ac173ba07e)
 
+## Use
+- You need to prepare:
+- A heart that can calm down and toss
+- Some of the [materials](https://makerworld.com/zh/models/463829#profileId-372457) mentioned in makerworld
+- [Materials](https://oshwhub.com/applenana/ap-ams-control-panel-30) from LiChuang Open Source Plaza
+- Here is [release](https://github.com/applenana/AP-AMS/releases/) (firmware)!
+- (To be continued)
 
-## 使用
-- 你需要准备:
-  - 一颗能沉下心来折腾的心
-  - makerworld中提到的部分[材料](https://makerworld.com/zh/models/463829#profileId-372457)
-  - 立创开源广场的[材料](https://oshwhub.com/applenana/ap-ams-control-panel-30)
-  - 这里的[release](https://github.com/applenana/AP-AMS/releases/)(固件)!
-- （待续）
+## Tips
+- The project is basically completed. If you encounter any bugs, please send an issue or join QQ group 946045238
+- The model and gcode have been uploaded to [makerworld](https://makerworld.com/zh/@applenana)
+- PCB uploaded to [LiChuang Open Source Plaza](https://oshwhub.com/applenana/ap-ams-control-panel-30)
+- The micropython version has been deprecated because the memory cannot support it running in esp8266. You can try to run it in esp32 (not recommended)
 
-## 提示
-- 项目基本完成，如遇bug请发issue或加入QQ群946045238
-- 模型和gcode已上传至[makerworld](https://makerworld.com/zh/@applenana)
-- PCB上传至[立创开源广场](https://oshwhub.com/applenana/ap-ams-control-panel-30)
-- micropython版本已经弃用,原因是内存无法支撑其在esp8266中运行,你可以尝试在esp32中运行它(不建议)
-
-## 鸣谢
-- 整个项目的整体思路和部分资料来源于[YBA0312的YBA-AMS项目](https://github.com/YBA0312/YBA-AMS-ESP)!
+## Thanks
+- The overall idea and some information of the whole project come from [YBA0312's YBA-AMS project](https://github.com/YBA0312/YBA-AMS-ESP)!
+Feedback geben
+Übersetzungsergebnisse verfügbar
