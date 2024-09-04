@@ -6,7 +6,7 @@
 # AP-AMS
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable-next-line MD036 -->
-_✨ A simple automatic color change system for Tuozhu ✨_
+_✨ A simple automatic color change system for Bambu Printer ✨_
 <!-- prettier-ignore-end -->
 </div>
 
